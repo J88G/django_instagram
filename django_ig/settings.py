@@ -26,7 +26,7 @@ SECRET_KEY = 'l^c#b-(+&hq)*6p#!ot_iez+_j%d!0euiw2s9$+y@8s_i@_kyp'
 DEBUG = True
 
 # ALL: Change for production
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['django-ig.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -137,7 +137,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
