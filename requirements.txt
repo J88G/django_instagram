@@ -1,6 +1,7 @@
 django_annoying==0.10.3
 channels==0.17.3
 Django==1.10.3
+daphne==0.9.1
 django_imagekit==3.3
 dj-database-url==0.4.0
 dj-static==0.0.6
