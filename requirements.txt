@@ -1,6 +1,5 @@
 django_annoying==0.10.3
 channels==0.17.3
-daphne==0.9.1
 Django==1.10.3
 gunicorn==19.4.5
 django_imagekit==3.3
